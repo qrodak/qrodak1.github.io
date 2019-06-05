@@ -1,0 +1,102 @@
+/* Style sheet created by: Quinn Rodak, 5/2/19 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #696969;
+}
+/* this is for the main background color of the page */
+
+/* Style to create a fluid image*/
+img {
+		max-width: 100%;
+}
+
+/* Styles for mobile layout */
+
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for header specifies top margin, background color, rounded corners, and center-aligns content */
+header {
+	margin-top: 0.2em; 
+	background-color: #696969;
+	border-radius: 0.5em;
+	text-align: center;
+}
+/* still main background color */
+/* Style for nav specifies text properties */
+nav {
+	font-family: elvetica, Arial, sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+
+}
+/* Styles specifes padding and margins for unordered list*/ 
+nav ul {
+		padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em; 
+}
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margine and padding for list items within the navigation */
+nav li {
+		background-color:#8B0000;  
+		border-radius: 2em;
+		list-style-type: none; 
+		margin: 0.3em;
+		padding: 0.4em
+		color: white;
+}
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+		color: 8B0000;
+		text-decoration: none; 
+}
+
+/* Style displays the mobile class */
+.mobile {
+		display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+		display: none; 
+}
+
+/*Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	border-top: solid 0.2em #009933;
+	border-bottom: solid 0.2em #009933;
+}
+/* background - color is big box */
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	clear: both;
+	padding: 10px; 
+	background-color: #999999;
+	color: white;
+	text-align: right;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none; 
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+		display: none; 
+}
